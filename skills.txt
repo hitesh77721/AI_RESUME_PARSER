@@ -1,0 +1,20 @@
+Python
+SQL
+Machine Learning
+Deep Learning
+Data Analysis
+Power BI
+Excel
+Docker
+Kubernetes
+AWS
+Azure
+TensorFlow
+PyTorch
+Java
+C++
+JavaScript
+React
+Node.js
+Git
+Linux
