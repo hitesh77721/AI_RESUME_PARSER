@@ -8,9 +8,10 @@ import mysql.connector
 def connect_db():
 
     connection = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="tiger",
+        host="gateway01.ap-southeast-1.prod.alicloud.tidbcloud.com",
+        port= 4000,
+        user="3quCSjK73gdUEFX.root",
+        password="4BxH0rvrMO4gG6qF",
         database="resume_parser_db"
     )
 

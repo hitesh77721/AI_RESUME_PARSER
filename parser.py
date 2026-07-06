@@ -30,6 +30,17 @@ nltk.download("wordnet")
 # ==========================================
 # Load spaCy Model (Only Once)
 # ==========================================
+import subprocess
+import sys
+import spacy
+
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    subprocess.run(
+        [sys.executable, "-m", "spacy", "download", "en_core_web_sm"],
+        check=True,
+    )
 
 nlp = spacy.load("en_core_web_sm")
 
