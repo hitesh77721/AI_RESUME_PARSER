@@ -6,7 +6,7 @@ from parser import parse_multiple_resumes
 from database import (
     insert_multiple_resumes,
     fetch_all_resumes,
-    delete_resume,   # ✅ ADDED
+    delete_resume,
 )
 
 # ==========================================================
@@ -31,11 +31,18 @@ def load_dataframe():
                 "Phone",
                 "Skills",
                 "Degree",
+                "Experience",
+                "Projects",
+                "Certifications",
                 "Uploaded At",
             ]
         )
 
     df = pd.DataFrame(records)
+
+    # ==========================
+    # KEEP ONLY WHAT EXISTS IN DB
+    # ==========================
 
     df = df[
         [
@@ -45,9 +52,16 @@ def load_dataframe():
             "phone",
             "skills",
             "degrees",
+            "experience",
+            "projects",
+            "certifications",
             "uploaded_at",
         ]
     ]
+
+    # ==========================
+    # RENAME FOR UI
+    # ==========================
 
     df.columns = [
         "ID",
@@ -56,6 +70,9 @@ def load_dataframe():
         "Phone",
         "Skills",
         "Degree",
+        "Experience",
+        "Projects",
+        "Certifications",
         "Uploaded At",
     ]
 
@@ -71,6 +88,7 @@ def parse_and_save(files):
         return (
             "⚠ Please upload at least one resume.",
             load_dataframe(),
+            None,   # ✅ CLEAR FILE UPLOADER
         )
 
     try:
@@ -82,6 +100,7 @@ def parse_and_save(files):
             return (
                 "❌ No valid resumes were parsed.",
                 load_dataframe(),
+                None,   # ✅ CLEAR FILE UPLOADER
             )
 
         insert_multiple_resumes(resumes)
@@ -89,12 +108,14 @@ def parse_and_save(files):
         return (
             f"✅ Successfully parsed and stored {len(resumes)} resume(s).",
             load_dataframe(),
+            None,   # ✅ CLEAR FILE UPLOADER
         )
 
     except Exception as e:
         return (
             f"❌ Error: {str(e)}",
             load_dataframe(),
+            None,   # ✅ CLEAR FILE UPLOADER
         )
 
 
@@ -107,7 +128,7 @@ def refresh_table():
 
 
 # ==========================================================
-# DELETE FUNCTION (NEW)
+# DELETE FUNCTION
 # ==========================================================
 
 def delete_selected_resume(resume_id):
@@ -124,21 +145,30 @@ def delete_selected_resume(resume_id):
 
 
 # ==========================================================
+# CLEAR UPLOAD FUNCTION (MANUAL)
+# ==========================================================
+
+def clear_upload():
+    return None
+
+
+# ==========================================================
 # UI
 # ==========================================================
 
 with gr.Blocks(theme=theme, title="AI Resume Parser") as app:
 
-    gr.Markdown(
-        """
+    gr.Markdown("""
 # 📄 AI Resume Parser
 
-Upload multiple resumes, parse them, store them in MySQL and
-view all stored resumes.
-"""
-    )
+Upload multiple resumes, parse them, store them in MySQL and view all stored resumes.
+""")
 
     gr.Markdown("---")
+
+    # ==========================================================
+    # FILE UPLOAD
+    # ==========================================================
 
     upload_files = gr.File(
         label="Upload Resume(s)",
@@ -146,9 +176,14 @@ view all stored resumes.
         file_types=[".pdf", ".docx", ".txt"],
     )
 
+    # ==========================================================
+    # BUTTONS
+    # ==========================================================
+
     with gr.Row():
         parse_button = gr.Button("🚀 Parse & Save", variant="primary")
         refresh_button = gr.Button("🔄 Refresh")
+        clear_button = gr.Button("🧹 Clear Upload")
 
     status_box = gr.Textbox(
         label="Status",
@@ -168,7 +203,7 @@ view all stored resumes.
     )
 
     # ==========================================================
-    # DELETE UI (NEW)
+    # DELETE UI
     # ==========================================================
 
     gr.Markdown("## 🗑 Delete Resume")
@@ -179,10 +214,7 @@ view all stored resumes.
             precision=0,
         )
 
-        delete_button = gr.Button(
-            "Delete",
-            variant="stop",
-        )
+        delete_button = gr.Button("Delete", variant="stop")
 
     # ==========================================================
     # LOAD ON START
@@ -197,26 +229,35 @@ view all stored resumes.
     # EVENTS
     # ==========================================================
 
+    # 🚀 parse + auto clear upload
     parse_button.click(
         fn=parse_and_save,
         inputs=upload_files,
-        outputs=[status_box, resume_table],
+        outputs=[status_box, resume_table, upload_files],
     )
 
+    # 🔄 refresh table
     refresh_button.click(
         fn=refresh_table,
         outputs=resume_table,
     )
 
+    # 🗑 delete resume
     delete_button.click(
         fn=delete_selected_resume,
         inputs=delete_id,
         outputs=[status_box, resume_table],
     )
 
+    # 🧹 manual clear upload
+    clear_button.click(
+        fn=clear_upload,
+        outputs=upload_files,
+    )
+
 
 # ==========================================================
-# LAUNCH APP
+# LAUNCH
 # ==========================================================
 
 if __name__ == "__main__":

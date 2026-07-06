@@ -31,11 +31,18 @@ def load_dataframe():
                 "Phone",
                 "Skills",
                 "Degree",
+                "Experience",
+                "Projects",
+                "Certifications",
                 "Uploaded At",
             ]
         )
 
     df = pd.DataFrame(records)
+
+    # ==========================
+    # KEEP ONLY WHAT EXISTS IN DB
+    # ==========================
 
     df = df[
         [
@@ -45,9 +52,16 @@ def load_dataframe():
             "phone",
             "skills",
             "degrees",
+            "experience",
+            "projects",
+            "certifications",
             "uploaded_at",
         ]
     ]
+
+    # ==========================
+    # RENAME FOR UI
+    # ==========================
 
     df.columns = [
         "ID",
@@ -56,6 +70,9 @@ def load_dataframe():
         "Phone",
         "Skills",
         "Degree",
+        "Experience",
+        "Projects",
+        "Certifications",
         "Uploaded At",
     ]
 
