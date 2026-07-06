@@ -1,0 +1,93 @@
+DAVID WILSON
+
+Cloud & DevOps Engineer
+
+Email: david.wilson@gmail.com
+Phone: +91 9844455566
+
+LinkedIn: https://www.linkedin.com/in/davidwilson
+GitHub: https://github.com/davidwilson
+Portfolio: https://davidcloud.dev
+
+------------------------------------------------------------
+
+PROFILE
+
+Cloud and DevOps Engineer experienced in AWS, Docker,
+Kubernetes and CI/CD pipeline automation.
+
+------------------------------------------------------------
+
+SKILLS
+
+AWS
+Azure
+Docker
+Kubernetes
+Jenkins
+Terraform
+Linux
+Python
+Bash
+Git
+GitHub Actions
+Ansible
+MySQL
+PostgreSQL
+Prometheus
+Grafana
+
+------------------------------------------------------------
+
+EDUCATION
+
+Bachelor of Technology in Computer Engineering
+
+National Institute of Technology Surathkal
+
+2019 - 2023
+
+CGPA: 8.85
+
+------------------------------------------------------------
+
+EXPERIENCE
+
+DevOps Engineer
+
+Accenture
+
+July 2023 - Present
+
+• Automated CI/CD pipelines using Jenkins.
+• Managed Kubernetes clusters.
+• Reduced deployment time by 60%.
+
+------------------------------------------------------------
+
+PROJECTS
+
+Cloud Infrastructure Automation
+
+Automated AWS infrastructure using Terraform and Ansible.
+
+Technologies:
+Terraform
+AWS
+Docker
+Kubernetes
+
+------------------------------------------------------------
+
+CERTIFICATIONS
+
+AWS Solutions Architect Associate
+
+Red Hat Certified System Administrator
+
+------------------------------------------------------------
+
+LANGUAGES
+
+English
+Hindi

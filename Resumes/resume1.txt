@@ -1,0 +1,139 @@
+JOHN SMITH
+
+Software Engineer
+
+Email: john.smith@gmail.com
+Phone: +91 9876543210
+
+LinkedIn: https://www.linkedin.com/in/johnsmith
+GitHub: https://github.com/johnsmith
+Portfolio: https://johnsmith.dev
+
+------------------------------------------------------------
+
+PROFILE
+
+Highly motivated Software Engineer with a strong foundation in Machine Learning,
+Data Science and Full Stack Development. Passionate about solving real-world
+problems using Artificial Intelligence and Cloud Technologies.
+
+------------------------------------------------------------
+
+SKILLS
+
+Python
+Java
+C++
+SQL
+JavaScript
+React
+Node.js
+HTML
+CSS
+Git
+Docker
+Kubernetes
+AWS
+Azure
+TensorFlow
+PyTorch
+Scikit-learn
+Pandas
+NumPy
+Machine Learning
+Deep Learning
+Natural Language Processing
+Computer Vision
+Power BI
+Excel
+
+------------------------------------------------------------
+
+EDUCATION
+
+Bachelor of Technology (B.Tech) in Computer Science
+
+Indian Institute of Technology Delhi
+
+2020 - 2024
+
+CGPA: 8.91
+
+------------------------------------------------------------
+
+EXPERIENCE
+
+Software Engineer Intern
+
+Google
+
+January 2024 - June 2024
+
+• Developed REST APIs using Python and Flask.
+• Built automation scripts reducing manual work by 35%.
+• Worked with SQL databases.
+• Used Docker containers for deployment.
+
+------------------------------------------------------------
+
+PROJECTS
+
+Resume Parser
+
+Developed an intelligent Resume Parser using Python, spaCy,
+Regex, NLP and Machine Learning capable of extracting
+skills, education, experience and contact details.
+
+Technologies:
+Python, spaCy, SQL, Gradio
+
+------------------------------------------------------------
+
+Employee Attrition Prediction
+
+Built a Machine Learning model using Random Forest
+to predict employee attrition.
+
+Technologies:
+Python
+Scikit-learn
+Pandas
+NumPy
+
+------------------------------------------------------------
+
+CERTIFICATIONS
+
+AWS Certified Cloud Practitioner
+
+Microsoft Azure Fundamentals
+
+Google Data Analytics Professional Certificate
+
+------------------------------------------------------------
+
+ACHIEVEMENTS
+
+Winner of College Hackathon 2023
+
+Solved more than 500 coding problems on LeetCode
+
+------------------------------------------------------------
+
+LANGUAGES
+
+English
+
+Hindi
+
+------------------------------------------------------------
+
+INTERESTS
+
+Artificial Intelligence
+
+Machine Learning
+
+Cloud Computing
+
+Open Source Contribution

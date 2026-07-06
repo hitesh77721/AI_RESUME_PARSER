@@ -1,0 +1,95 @@
+EMILY JOHNSON
+
+Data Scientist
+
+Email: emily.johnson@gmail.com
+Phone: +91 9811122233
+
+LinkedIn: https://www.linkedin.com/in/emilyjohnson
+GitHub: https://github.com/emilyjohnson
+Portfolio: https://emilyds.com
+
+------------------------------------------------------------
+
+PROFILE
+
+Data Scientist with expertise in Machine Learning, Deep Learning,
+Data Visualization and Business Analytics. Passionate about
+building AI-driven solutions.
+
+------------------------------------------------------------
+
+SKILLS
+
+Python
+R
+SQL
+Pandas
+NumPy
+Matplotlib
+Seaborn
+TensorFlow
+PyTorch
+Scikit-learn
+Power BI
+Tableau
+Excel
+Statistics
+Machine Learning
+Deep Learning
+NLP
+Git
+Docker
+
+------------------------------------------------------------
+
+EDUCATION
+
+Master of Technology (M.Tech) in Data Science
+
+Indian Institute of Science Bangalore
+
+2021 - 2023
+
+CGPA: 9.12
+
+------------------------------------------------------------
+
+EXPERIENCE
+
+Data Scientist
+
+Infosys
+
+July 2023 - Present
+
+• Developed predictive models for customer analytics.
+• Built Power BI dashboards.
+• Automated ETL pipelines using Python.
+
+------------------------------------------------------------
+
+PROJECTS
+
+Sales Forecasting System
+
+Developed a forecasting model using XGBoost and Python
+to predict monthly sales.
+
+Technologies:
+Python, Pandas, Scikit-learn, Power BI
+
+------------------------------------------------------------
+
+CERTIFICATIONS
+
+Google Data Analytics Professional Certificate
+
+IBM Data Science Professional Certificate
+
+------------------------------------------------------------
+
+LANGUAGES
+
+English
+Hindi

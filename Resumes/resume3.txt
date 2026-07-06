@@ -1,0 +1,93 @@
+MICHAEL BROWN
+
+Full Stack Developer
+
+Email: michael.brown@gmail.com
+Phone: +91 9822233344
+
+LinkedIn: https://www.linkedin.com/in/michaelbrown
+GitHub: https://github.com/michaelbrown
+Portfolio: https://michaelbrown.dev
+
+------------------------------------------------------------
+
+PROFILE
+
+Creative Full Stack Developer with experience in building
+responsive web applications using MERN Stack and cloud services.
+
+------------------------------------------------------------
+
+SKILLS
+
+JavaScript
+TypeScript
+React
+Next.js
+Node.js
+Express.js
+MongoDB
+MySQL
+HTML
+CSS
+Bootstrap
+Tailwind CSS
+Git
+Docker
+AWS
+Firebase
+
+------------------------------------------------------------
+
+EDUCATION
+
+Bachelor of Engineering in Information Technology
+
+Delhi Technological University
+
+2019 - 2023
+
+CGPA: 8.75
+
+------------------------------------------------------------
+
+EXPERIENCE
+
+Software Developer
+
+Tata Consultancy Services
+
+August 2023 - Present
+
+• Developed enterprise web applications.
+• Designed REST APIs.
+• Improved application performance by 40%.
+
+------------------------------------------------------------
+
+PROJECTS
+
+E-Commerce Platform
+
+Developed a complete shopping website with secure payment integration.
+
+Technologies:
+React
+Node.js
+MongoDB
+Express
+
+------------------------------------------------------------
+
+CERTIFICATIONS
+
+Meta Front-End Developer
+
+AWS Cloud Practitioner
+
+------------------------------------------------------------
+
+LANGUAGES
+
+English
+Hindi

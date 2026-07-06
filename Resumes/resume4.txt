@@ -1,0 +1,92 @@
+SOPHIA WILLIAMS
+
+AI Engineer
+
+Email: sophia.williams@gmail.com
+Phone: +91 9833344455
+
+LinkedIn: https://www.linkedin.com/in/sophiawilliams
+GitHub: https://github.com/sophiawilliams
+Portfolio: https://sophiaai.dev
+
+------------------------------------------------------------
+
+PROFILE
+
+Artificial Intelligence Engineer specializing in Computer Vision,
+Deep Learning and Natural Language Processing.
+
+------------------------------------------------------------
+
+SKILLS
+
+Python
+TensorFlow
+PyTorch
+OpenCV
+YOLO
+Machine Learning
+Deep Learning
+NLP
+SQL
+Docker
+AWS
+Git
+Linux
+FastAPI
+Flask
+
+------------------------------------------------------------
+
+EDUCATION
+
+Bachelor of Technology in Artificial Intelligence
+
+Vellore Institute of Technology
+
+2020 - 2024
+
+CGPA: 9.20
+
+------------------------------------------------------------
+
+EXPERIENCE
+
+AI Engineer Intern
+
+Microsoft
+
+January 2024 - July 2024
+
+• Developed computer vision models.
+• Built NLP chatbots.
+• Improved image classification accuracy by 15%.
+
+------------------------------------------------------------
+
+PROJECTS
+
+Face Recognition Attendance System
+
+Built an attendance system using Face Recognition
+and OpenCV.
+
+Technologies:
+Python
+OpenCV
+Flask
+
+------------------------------------------------------------
+
+CERTIFICATIONS
+
+Microsoft Azure AI Fundamentals
+
+TensorFlow Developer Certificate
+
+------------------------------------------------------------
+
+LANGUAGES
+
+English
+Hindi
